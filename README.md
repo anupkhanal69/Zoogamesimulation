@@ -2,92 +2,88 @@ OzZoo Simulation Game
 
 OzZoo is a Python-based zoo management simulation that demonstrates advanced object-oriented programming and Tkinter GUI development. The game allows players to manage animals, enclosures, finances, visitors, and random events, including feeding, health monitoring, breeding, and daily operations.
 
-Features
+**Features**
 
-Interactive GUI: Control the zoo, view enclosures, and manage animals
+- Interactive GUI: Control the zoo, view enclosures, and manage animals
 
-Animal simulation: Health, hunger, happiness, aging, and breeding system
+- Animal simulation: Health, hunger, happiness, aging, and breeding system
 
-Enclosure management: Capacity, habitat type, cleanliness, and upgrades
+- Enclosure management: Capacity, habitat type, cleanliness, and upgrades
 
-Finance tracking: Income, expenses, food, and animal purchases
+- Finance tracking: Income, expenses, food, and animal purchases
 
-Random events: Heatwaves, donations, and animal escape incidents
+- Random events: Heatwaves, donations, and animal escape incidents
 
-Design patterns:
+**Design patterns**:
 
-Factory: For animal creation
+- Factory: For animal creation
 
-Observer: Health monitoring
+- Observer: Health monitoring
 
-Singleton-like: Finance manager
+- Singleton-like: Finance manager
 
-Custom exceptions: For insufficient funds, capacity limits, and species incompatibility
+- Custom exceptions: For insufficient funds, capacity limits, and species incompatibility
 
-Report generation: Text or PDF reports summarizing zoo status and events
+- Report generation: Text or PDF reports summarizing zoo status and events
 
-Class & Design Overview
+**Class & Design Overview**
 
-Animal Hierarchy (ABC): Animal → Mammal → Marsupial → Koala/Kangaroo; Bird → WedgeTailedEagle
+- Animal Hierarchy (ABC): Animal → Mammal → Marsupial → Koala/Kangaroo; Bird → WedgeTailedEagle
 
-Enclosure: Manages animals, habitat effects, and cleanliness
+- Enclosure: Manages animals, habitat effects, and cleanliness
 
-Zoo: Main simulation manager, handles daily operations, visitors, finances, and events
+- Zoo: Main simulation manager, handles daily operations, visitors, finances, and events
 
-Visitor: Simulates visitor interactions, satisfaction, and spending
+- Visitor: Simulates visitor interactions, satisfaction, and spending
 
-FinanceManager: Tracks zoo income and expenses
+- FinanceManager: Tracks zoo income and expenses
 
-AnimalFactory: Creates animals by species
+- AnimalFactory: Creates animals by species
 
-HealthObserver: Observer pattern for health alerts
+- HealthObserver: Observer pattern for health alerts
 
-OzZooApp: Tkinter GUI for interactive management
+- OzZooApp: Tkinter GUI for interactive management
 
-Requirements
+**Requirements**
 
-Python 3.8+
+- Python 3.8+
 
-Tkinter (included with Python)
+- Tkinter (included with Python)
 
-Optional: reportlab for PDF report generation
 
-Running the Game
+**Running the Game**
 
-Clone the repository:
-
+- Clone the repository:
 git clone https://github.com/your-username/OzZoo.git
 cd OzZoo
 
 
-Run the application:
+**Run the application**:
 
-python ozzoo.py
+- python ozzoo.py
 
+**Use the GUI to**:
 
-Use the GUI to:
+- Start or pause automatic daily operations
 
-Start or pause automatic daily operations
+- Advance the day manually
 
-Advance the day manually
+- Feed animals, give medicine, attempt breeding
 
-Feed animals, give medicine, attempt breeding
+- Buy food or animals
 
-Buy food or animals
+- Clean and upgrade enclosures
 
-Clean and upgrade enclosures
+- Generate reports
 
-Generate reports
+**Notes**
 
-Notes
+- Designed for easy extension: new species, foods, events, or enclosures can be added.
 
-Designed for easy extension: new species, foods, events, or enclosures can be added.
+**Demonstrates key OOP concepts, design patterns, and GUI integration.**
 
-All major classes include comments for clarity.
+**License**
 
-Demonstrates key OOP concepts, design patterns, and GUI integration.
-
-License
-
-This project is released under the MIT License
+--- This project is released under the MIT License
 .
+
